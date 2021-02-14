@@ -4,7 +4,7 @@
      Team Profile Generator
     
   ##  Description
-    create a pro file team for you company
+    create a profile for your company employees
   ## Table of Contents
   * [Description](#description)
   * [Usage](#usage)
@@ -15,7 +15,7 @@
   * [Questions](#questions)
   ## Installation
   To install dependencies, run the below command :
-    Create a team easly
+    node index
   ## Usage
      use JavaScript, css, and generat html
   ## License
