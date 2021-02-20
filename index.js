@@ -34,7 +34,7 @@
       name: 'number of office',
       message: 'what is the manager office number',
     }]).then(managerData => {
-        manager = Manager(managerData.managerName, managerData.managerID, managerData.managerEmail, managerData.numberofoffice, managerData.teamTitle);
+        manager = new Manager(managerData.managerName, managerData.managerID, managerData.managerEmail, managerData.numberofoffice, managerData.teamTitle);
         console.log("now ask for employee information")
         employeeData();
     });// function will repeat if more than one employee is needed   
@@ -103,7 +103,7 @@
       }
   }); 
 }
-} // renderEmployeefunvtion that is called above
+} // renderEmployeefunction that is called above
   function renderEmployee(employee) {
     if (employee.getRole() === "Intern") {
         var internCard = fs.readFileSync('./templates/Intern.html', 'utf8');
