@@ -1,8 +1,19 @@
-const { test, expect } = require("@jest/globals");
 const Intern = require("../lib/Intern");
 
-test("can set school via constructor", () => {
+test("Can set school via constructor", () => {
     const testValue = "UCLA";
-    const e = new Intern("foo", 1, "test@test.com", testValue);
+    const e = new Intern("Foo", 1, "test@test.com", testValue);
     expect(e.school).toBe(testValue);
+});
+
+test("getRole() should return \"Intern\"", () => {
+    const testValue = "Intern";
+    const e = new Intern("Foo", 1, "test@test.com", "UCLA");
+    expect(e.getRole()).toBe(testValue);
+});
+
+test("Can get school via getSchool()", () => {
+    const testValue = "UCLA";
+    const e = new Intern("Foo", 1, "test@test.com", testValue);
+    expect(e.getSchool()).toBe(testValue);
 });
