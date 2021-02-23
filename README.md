@@ -13,6 +13,7 @@
   * [Usage](#usage)
   * [Images](#Images)
   * [Questions](#questions)
+  * [Links](#Links)
   ## Installation
   To install dependencies, to run the below command npm jest :
    npm run test 
@@ -40,5 +41,5 @@
    Email : [sherlockholmes.swigart92@gmail.com](mailto:sherlockholmes.swigart92@gmail.com)
    Github : [Michaelswigart](https://github.com/Michaelswigart)
    
-   
-
+  ## Links 
+  https://github.com/Michaelswigart/Team-Profile_generator
